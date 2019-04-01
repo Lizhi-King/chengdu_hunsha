@@ -1,0 +1,18 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/lizhi/Desktop/%e6%88%90%e9%83%bd%e7%bb%b4%e7%ba%b3%e6%96%af%e5%a9%9a%e7%ba%b1%e6%91%84%e5%bd%b1-%e7%a7%bb%e5%8a%a8%e7%ab%af/%e6%95%88%e6%9e%9c%e5%9b%be/%e9%a6%96%e9%a1%b5.png">
+  <Marks>
+    <LengthMark x="628" y="0" color="16711680" length="602" direction="3"/>
+    <LengthMark x="1279" y="0" color="16711680" length="143" direction="3"/>
+    <LengthMark x="847" y="143" color="16711680" length="50" direction="3"/>
+    <LengthMark x="1011" y="193" color="16711680" length="408" direction="3"/>
+    <LengthMark x="632" y="618" color="16711680" length="640" direction="12"/>
+    <ColorMark x="830" y="926" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1005" y="1220" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="862" y="1208" color="16711680" length="44" direction="3"/>
+    <LengthMark x="831" y="1229" color="16711680" length="242" direction="12"/>
+    <LengthMark x="709" y="1276" color="16711680" length="158" direction="3"/>
+    <ColorMark x="1020" y="1348" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="940" y="1553" color="16711680" length="24" direction="12"/>
+    <ColorMark x="1238" y="2687" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="1286" y="3495" color="16711680" length="74" direction="3"/>
+  </Marks>
+</MKM>

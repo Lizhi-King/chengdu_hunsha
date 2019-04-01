@@ -1,0 +1,329 @@
+/*1导航条开始*/
+img{
+	width: 100%;
+	display: block;
+}	
+.contatiner{
+	width: 100%;
+	margin: 0 auto;
+	 /*background: pink;*/
+	max-width: 640px;
+	min-width: 320px;
+}
+.nav_content{
+	display: flex;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+}
+.nav_content li{
+	width: 20%;
+	flex: 1;
+	/*background: pink;*/
+}
+
+.nav_content li a{
+	width: 100%;
+	display: flex;
+	display: block;
+	color: #fff;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	/*background: yellowgreen;*/
+}
+.nav_content li a:hover{
+	color: #999;
+}
+.nav_content li a span{
+	display: block;
+	width: 100%;
+	flex-wrap:wrap;
+	/*color: #fff;*/
+	font-size: 20px;
+	font-weight: 600;
+}
+.nav_content li a span:nth-child(2){
+	font-size: 15px;
+}
+/*导航条结束*/
+
+/*2banner开始*/
+.bannerbox p{
+	text-align: center;
+	font-size: 14px;
+	margin:8px auto;
+}
+.bannerbox p:nth-child(2){
+	font-size: 25px;
+	font-weight: 900;
+}
+.bannerbox p:nth-child(1){
+	margin-top: 12px;
+}
+.wei_niya{
+	display: flex;
+	/*flex-wrap: wrap;*/
+	justify-content:space-between;
+}
+.wei_niya a{
+	width: 49.5%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	color: #666;
+	margin-bottom: 1%;
+	/*margin-right: 1%;*/
+}
+.wei_niya a>img{
+	display: block;
+	margin-bottom: 1%;
+}
+.dianji{
+	/*height: 44px;*/
+	margin: 10px auto;
+	text-align: center;
+	cursor: pointer;
+}
+.dianji a{
+	display: block;
+	width: 242px;
+	border: 1px solid #f68b1f;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+.dianji a span:nth-child(1){
+	display: block;
+	padding-top: 3%;
+	font-size: 10px;
+	color: #f68b1f;
+}
+.dianji a span:nth-child(2){
+	display: block;
+	font-size: 10px;
+	color: #666;
+	padding-bottom: 3%;
+}
+.yanfa{
+	height: 158px;
+	background: #000000;
+	text-align: center;
+}
+.yanfa p{
+	color: #fff;
+	font-size: 12px;
+}
+.yanfa p:nth-child(1){
+	padding-top: 4%;
+}
+.yanfa p:nth-child(3){
+	font-size: 25px;
+	font-weight: 900;
+}
+.zuopin p:nth-child(1){
+	font-size: 20px;
+	font-weight: 900;
+}
+.zuopin p:nth-child(2){
+	font-size: 12px;
+	
+}
+.zuopin p:nth-child(2) i{
+	display: inline-block;
+	width: 28px;
+	height: 2px;
+	background: #F68B1F;
+}
+.bannerbox>.xin{
+	font-size: 16px;
+	font-weight: 900;
+}
+.bannerbox>.ven{
+	font-size: 12px;
+}
+.bannerbox .jianchi{
+	background-color: #f68b1f;
+}
+/*城市轻旅拍*/
+.qinlv{
+	background: #F68B1F;
+	height: 74px;
+}
+.qinlv p {
+	text-align: left;
+	padding: 5% 0 0 5%;
+}
+.qinlv p span{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 900;
+}
+.kezhao_box p{
+	font-size: 12px;
+}
+.kezhao_box p:nth-child(2){
+	font-size: 20px;
+	font-weight: 900;
+}
+.ya_an{
+	display: flex;
+	margin-top: 10px;
+	text-align: center;
+	justify-content:space-between;
+}
+.ya_an a{
+	display: block;
+	width: 24%;
+	
+}
+.ya_an a img{
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.zizhu p:nth-child(1){
+	font-size: 25px;
+	color: #666666;
+	font-weight: 900;
+}
+.zizhu p:nth-child(3){
+	color: #666;
+}
+/*你喜欢的风格*/
+.duoxuan{
+	width: 100%;
+}
+.fenge li{
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+}
+.fenge li label{
+	width: 100%;
+	font-size: 14px;
+	color: #F68B1F;
+}
+.fenge li:nth-child(1){
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+.fenge li label span{
+	display: block;
+	float: left;
+}
+.fenge li label input[type="checkbox"]{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 3px;
+	border: 1px solid #999;
+	background: #fff;
+}
+.duoxuan ul:nth-child(2) label input[type="checkbox"]{
+	display: inline-block;
+	border-radius: 50%;
+}
+.tianxie ul li{
+	margin-top: 10px;
+}
+.tianxie ul li:nth-child(1){
+	font-size: 16px;
+}
+.tianxie ul li:nth-child(2) input[type="text"]{
+	width: 40%;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.tianxie p:nth-child(2){
+	width: 238px;
+	padding: 1%;
+	background: #F68B1F;
+	color: #fff;
+	font-size: 25px;
+	cursor: pointer;
+	margin-top: 5%;
+}
+.tianxie div{
+	width: 100%;
+	text-align: right;
+}
+.tianxie div a{
+	cursor: pointer;
+}
+.tianxie p:nth-child(4){
+	width: 20%;
+	height: 20%;
+}
+/*banner结束*/
+/*脚*/
+.footbox{
+	width: 100%;
+	background: #000;
+	box-sizing: border-box;
+}
+.footbox p{
+	color: #5f5f5f;
+	padding-top: 5px;
+	border-bottom: 1px solid #5f5f5f;
+	cursor: pointer;
+}
+.footbox p:nth-child(1),.footbox p:nth-child(2){
+	font-size: 1.2rem;
+	font-weight: 900;
+	padding: 2%;
+}
+.footbox p:nth-child(1) a:hover,.footbox p:nth-child(2) a:hover{
+	color: #ffb71f;
+}
+.footbox p:nth-child(1) span,.footbox p:nth-child(2) span{
+	float: right;
+	padding-right: 1%;
+}
+.footbox p:nth-child(3),.footbox p:nth-child(4){
+	width: 100%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+.footbox p:nth-child(3) span,.footbox p:nth-child(4) span{
+	width: 90%;
+	display: block;
+	padding-left: 2%;
+}
+.footbox p:nth-child(3) span b,.footbox p:nth-child(4) span b{
+	font-size: 28px;
+	font-weight: 900;
+	color: #ffb71f;
+}
+.footbox p:nth-child(5){
+	font-size: 15px;
+	padding: 2%;
+}
+.footbox p:nth-child(6){
+	font-size: 11px;
+	padding: 1.5%;
+}
+.footbox div{
+	padding: 0.5%;
+	width: 5%;
+	height: 5%;
+	cursor: pointer;
+}
+.online{
+	position: fixed;
+	top: 50%;
+	left: 0;
+}
+.tan{
+	height: 40px;
+	line-height: 40px;
+	position: fixed;
+	background: #1f8ceb;
+	bottom: 1%;
+	right: 0;
+}
+.tan span{
+	display: inline-block;	
+}
+.tan span a{
+	
+}
