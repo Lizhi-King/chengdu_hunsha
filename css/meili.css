@@ -1,0 +1,244 @@
+/*1导航条开始*/
+body{
+	background: #eff3f6;
+}
+img{
+	width: 100%;
+	display: block;
+}	
+.contatiner{
+	width: 100%;
+	margin: 0 auto;
+	 /*background: pink;*/
+	max-width: 640px;
+	min-width: 320px;
+}
+/*1导航条*/
+.nav{
+	width: 100%;
+	height: 100%;
+}
+.nav_tu{
+	height: 90%;
+	width: 100%;
+	position: relative;
+}
+.nav_tu img{
+	display: inline-block;
+}
+.nav_cont{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav_cont a{
+	display: inline-block;
+	font-size: 26px;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+}
+.nav_cont a:nth-child(2){
+	position: absolute;
+	top: 23%;
+	left: 60%;
+}
+.nav_cont a:nth-child(3){
+	position: absolute;
+	top: 23%;
+	right: 5%;
+
+}
+.tubiao{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background: #fff;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.tubiao a{
+	display: inline-block;
+	height: 100%;
+	width: 16%;
+	font-size: 1.5vw;
+	font-weight: 900;
+}
+.tubiao a img{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+/*2.banner*/
+.zhuanshi{
+	background: #fff;
+	margin-top: 5%;
+}
+.zhuanshi p{
+	text-align: left;
+	padding-left: 5%;
+	padding-top: 5%;
+	margin: 2% auto;
+}
+.zhuanshi p b{
+	font-size: 2.2vw;
+	font-weight: 900;
+}
+.zhuanshi p span{
+	font-size: 1.8vw;
+}
+.zhuanshi p span i{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #999;
+	margin-left: 1%;
+}
+.zhuanshi p span i:nth-child(1){
+	margin-left: 20%;
+}
+.zhuanshi div.weilai{
+	display: flex;
+	height: 100%;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.zhuanshi div.weilai a{
+	width: 40%;
+	height: 100%;
+	font-size: 1.4vw;
+	text-align: center;
+}
+.zhuanshi div.weilai a img{
+	border-radius: 5%;
+}
+/*.zhuanshi div a span{display: block;
+	margin-top: 15px;
+}*/
+.zhuanshi div a img:{
+	display: block;
+	height: 90%;
+	border-radius: 5%;
+	margin: 15px auto;
+}
+.zhuanshi div a.more_a{
+	font-size: 1.5vw;
+	color: #F68B1F;
+	padding-top: 8%;
+	padding-bottom: 2%;
+} 
+.zhuanshi .xu{
+	display: flex;
+	justify-content: space-around;
+}
+.zhuanshi .xu a{
+	width: 30%;
+	font-size: 1.2vw;
+}
+.zhuanshi .xu a span{
+	display: block;
+	text-align: center;
+}
+.zhuanshi .xu a span:nth-child(2){
+	font-size: 25px;
+	font-weight: 900;
+}
+.zhuanshi .xu a img{
+	border-radius: 5%;
+}
+.xu_more{
+	display: flex;
+}
+.xu_more a{
+	flex: 1;
+	font-size: 1.5vw;
+	color: #F68B1F;
+	padding-top: 8%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+.zhontian{
+	margin-bottom: 5%;
+}
+.zhontian a{
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+.zhontian a img{
+	width: 97%;
+	border-radius: 5%;
+}
+.huaguo{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.huaguo a{
+	width: 48%;
+	text-align: center;
+	font-size: 1.4vw;
+}
+.huaguo a img{
+	border-radius: 5%;
+}
+.more_3d{
+	text-align: center;
+}
+.more_3d a{
+	font-size: 20px;
+	color: #F68B1F;
+	padding: 5% auto;
+}
+.suan{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.suan b{
+	display: inline-block;
+	width: 90%;
+	font-size: 3.5vw;
+	background: #ff4f02;
+	color: #fff;
+	text-align: center;
+	padding: 3% 0 ;
+	border-radius: 10px;
+	margin-top: 10%;
+}
+.huaguo a span{
+	color: #f54e60;
+}
+.shouji{
+	width: 100%;
+	display: flex;
+	flex-flow: wrap;
+}
+.shouji a{
+	width: 90%;
+	padding: 3% 0;
+	border-radius: 10px;
+	border: 1px solid #999;
+	margin-left: 5%;
+	margin-top: 4%;
+}
+.mianfei{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+.mianfei a{
+	width: 90%;
+	padding: 2% 0;
+	color: #fff;
+	background: #00b660;
+	text-align: center;
+	border-radius: 7px;
+	font-size: 2.1vw;
+}
